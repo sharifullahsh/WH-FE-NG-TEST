@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+    font-family: ProximaNovaReg;
+    box-sizing: border-box;
+  }
+
+  .wrapper{
+      /* background-color: #23123A; */
+      width: 80%;
+      max-width: 1120px;
+      margin: 0 auto;
+  }
+  .menu{
+      background-color: white;
+      height: 45px;
+      width: 100%;
+  }
+  .menu ul{
+      height: 100%;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+  }
+  .menu ul li{
+      display: block;
+
+  }
+  .menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: ProximaNovaReg;
+  font-size: 1rem;
+}
+.messageImg{
+    width: 100%;
+    min-height: 400px;
+    background-image: url('/assets/images/messageImg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+.messageImg h1{
+    color: #FFFFFF;
+    font-size: 6rem;
+    padding-top: 1.5rem;
+    margin-left: 2rem;
+    font-family: ProximaNovaReg;
+}
+.content{
+    display: flex; 
+    flex-direction: column;
+    padding: 2em; 
+    background-color: #F1F5F8;
+}
+.masterCardContent{
+    display: flex; 
+    flex-direction: column;
+    padding: 2em 3.6em;
+    background-color: white;
+}
+#contenth1{
+    color: #373737;
+    padding-bottom:20px;
+    font-family: ProximaNovaBold;
+}
+.cardTitle{
+    display: flex; flex-direction: row; justify-content: space-between;
+}
+.cardTitle h1{
+    display: inline;
+    color: #373737;
+    font-size: 1.2em;
+}
+.cardTitle span{
+    color: #000000;
+}
+.cardSection{
+    margin-top: 2rem;
+    display: flex; 
+    align-items: stretch;
+    justify-content: space-between;
+}
+.carImgSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.carImgBtnSection{
+    width: 50%; 
+    display: inline; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+#approval{
+    text-align: center; 
+    margin-bottom: 10px;
+    font-family: ProximaNovaReg;
+}
+.cardSection button{
+    border: 1px solid; 
+    border-radius:20px; 
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #59D8D1;
+    font-family: ProximaNovaL;
+}
+.cardSection ul{
+    padding-left: 2em;
+}
+// .cardDetails{
+//     // flex-basis: 60%;
+//     font-family: ProximaNovaReg;
+// }
+#applyNowBtn{
+    margin-top: 20px; 
+    width: 20rem;
+    background-color: #FA6E3D;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 6em;
+    color: white;
+    font-size: 1rem;
+}
+hr{
+    margin: 20px 0px;
+}
+@media only screen and(max-width:500px){
+    #review{
+        display: none;
+    }
+    #approval{
+        display: none;
+    }
+    .cardSection{
+        flex-direction: column; 
+    }
+    .cardSection ul{
+        padding-top: 1em;
+    }
+}
+@media only screen and(max-width:600px){
+    #desktopMenu{
+        display: none;
+    }
+    #mobileMenu{
+        display: block;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #desktopMenu{
+        display: block;
+    }
+    #mobileMenu{
+        display: none;
+    }
+    
+}
+@media only screen and(max-width:960px){
+    .content{
+        padding-left: 0px;
+        padding-right: 0px;;
+    }
+    #contenth1{
+        padding: 1em 1.5em;
+        font-size: 1.5rem;
+        font-family: ProximaNovaReg;
+    }
+    .masterCardContent{
+        padding: 2em 2em;
+    }
+    .messageImg h1{
+        font-size: 4rem;
+    }
+    .content{
+        padding: 0em;
+    }
+    .masterCardContent{
+        padding: 1.2em 0.6em;
+    }
+}

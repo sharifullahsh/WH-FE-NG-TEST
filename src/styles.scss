@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: ProximaNovaReg,Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+    font-family: ProximaNovaBI;
+    src: url(assets/font/Proxima_Nova_Bold_Italic.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaL;
+    src: url(assets/font/Proxima_Nova_Light.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaRI;
+    src: url(assets/font/Proxima_Nova_Regular_Italic.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaSBI;
+    src: url(assets/font/Proxima_Nova_Semibold_Italic.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaSB;
+    src: url(assets/font/Proxima_Nova_Semibold.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaBlack;
+    src: url(assets/font/ProximaNova-Black.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaBlackIt;
+    src: url(assets/font/ProximaNova-BlackIt.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaBold;
+    src: url(assets/font/ProximaNova-Bold.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaExtrabldIt;
+    src: url(assets/font/ProximaNova-ExtrabldIt.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaExtrabold;
+    src: url(assets/font/ProximaNova-Extrabold.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaLightItalic;
+    src: url(assets/font/ProximaNova-LightItalic.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaReg;
+    src: url(assets/font/ProximaNova-Reg.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaThin;
+    src: url(assets/font/ProximaNova-Thin.otf) format("opentype");
+  }
+  @font-face {
+    font-family: ProximaNovaThinIt;
+    src: url(assets/font/ProximaNova-ThinIt.otf) format("opentype");
+  }
