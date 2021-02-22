@@ -16,6 +16,8 @@
       background-color: white;
       height: 45px;
       width: 100%;
+      border-left: 1px solid #23123A;
+      border-right: 1px solid #23123A;
   }
   .menu ul{
       height: 100%;
@@ -114,10 +116,7 @@
 .cardSection ul{
     padding-left: 2em;
 }
-// .cardDetails{
-//     // flex-basis: 60%;
-//     font-family: ProximaNovaReg;
-// }
+
 #applyNowBtn{
     margin-top: 20px; 
     width: 20rem;
@@ -140,9 +139,14 @@ hr{
     }
     .cardSection{
         flex-direction: column; 
+        margin-top: 1em;
     }
     .cardSection ul{
         padding-top: 1em;
+        margin-left: -1em;
+    }
+    #applyNowBtn{
+        width: 100%;
     }
 }
 @media only screen and(max-width:600px){
@@ -168,7 +172,7 @@ hr{
         padding-right: 0px;;
     }
     #contenth1{
-        padding: 1em 1.5em;
+        padding: 1em 0.5em;
         font-size: 1.5rem;
         font-family: ProximaNovaReg;
     }
