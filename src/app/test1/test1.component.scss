@@ -166,6 +166,16 @@ hr{
     }
     
 }
+@media only screen and(max-width:320px){
+    .messageImg{
+        background-image: url('/assets/images/smallMessageImg.jpg');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+    }
+}
+
+
 @media only screen and(max-width:960px){
     .content{
         padding-left: 0px;
